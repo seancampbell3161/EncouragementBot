@@ -116,5 +116,3 @@ client.on("message", msg => {
 keepAlive();
 const mySecret = process.env['TOKEN']
 client.login(mySecret);
-
-
